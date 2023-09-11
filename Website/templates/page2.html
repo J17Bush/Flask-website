@@ -1,0 +1,12 @@
+{% extends "base.HTML" %}
+{% block title %}page 2{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+<body>
+    <h1>Page 2</h1>
+    <p>This is Page 2.</p>
+    <a href="/">Back to Home</a>
+</body>
+
+{% endblock %}

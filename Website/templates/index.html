@@ -1,0 +1,16 @@
+<!-- index.html -->
+{% extends "base.HTML" %}
+{% block title %}My Python Website{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+<body>
+    <h1>This is my website</h1>
+    <p>Welcome to my webpage</p>
+    <a href="/page1">Go to Page 1</a>
+    <a href="/page2">Go to Page 2</a>
+</body>
+
+{% endblock %}
+
